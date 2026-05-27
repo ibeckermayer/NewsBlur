@@ -463,7 +463,7 @@ class MUserFeedNotification(mongo.Document):
                 category="STORY_CATEGORY",
                 mutable_content=True,
             )
-            notification = IOSNotification(payload=payload, topic="com.newsblur.NewsBlur")
+            notification = IOSNotification(payload=payload, topic="com.becker-mayer.nb")
 
             try:
                 apns.push(notification=notification, device_token=token)
