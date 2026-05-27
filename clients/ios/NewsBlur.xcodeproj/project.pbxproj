@@ -1526,7 +1526,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				177551DF238E228A00E27818 /* Old NewsBlur Latest.appex in Embed Foundation Extensions */,
 				1749391B1C251BFE003D98AA /* Share Extension.appex in Embed Foundation Extensions */,
 				173CB31A26BCE94A00BA872A /* NewsBlur Widget.appex in Embed Foundation Extensions */,
 			);
@@ -4020,7 +4019,6 @@
 			dependencies = (
 				1749391A1C251BFE003D98AA /* PBXTargetDependency */,
 				FF8A949E1DE3BB77000A4C31 /* PBXTargetDependency */,
-				177551DE238E228A00E27818 /* PBXTargetDependency */,
 				173CB31926BCE94A00BA872A /* PBXTargetDependency */,
 			);
 			name = NewsBlur;
@@ -4097,7 +4095,7 @@
 					};
 					1749390F1C251BFE003D98AA = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = HR7P97SD72;
+						DevelopmentTeam = T9NVCYP4WM;
 						LastSwiftMigration = 1250;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -4107,7 +4105,7 @@
 					};
 					177551D2238E228A00E27818 = {
 						CreatedOnToolsVersion = 11.2.1;
-						DevelopmentTeam = HR7P97SD72;
+						DevelopmentTeam = T9NVCYP4WM;
 						LastSwiftMigration = 1120;
 						ProvisioningStyle = Automatic;
 					};
@@ -4135,7 +4133,7 @@
 					};
 					FF8A94961DE3BB77000A4C31 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = HR7P97SD72;
+						DevelopmentTeam = T9NVCYP4WM;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -5805,7 +5803,7 @@
 				MARKETING_VERSION = 14.7.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.newsblur.NewsBlur.widget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.becker-mayer.nb.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = YES;
@@ -5852,7 +5850,7 @@
 				MARKETING_VERSION = 14.7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.newsblur.NewsBlur.widget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.becker-mayer.nb.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = YES;
@@ -5910,7 +5908,7 @@
 				);
 				MARKETING_VERSION = 14.7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.newsblur.NewsBlur.Share-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.becker-mayer.nb.Share-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -5960,7 +5958,7 @@
 				);
 				MARKETING_VERSION = 14.7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.newsblur.NewsBlur.Share-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.becker-mayer.nb.Share-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -5974,8 +5972,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDev;
 				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIconMeadowSage AppIconAtlanticBlue AppIconCoralRose AppIconRubyRed AppIconEmberOrange AppIconTealMint AppIconLavenderIris AppIconSlateGray AppIconSepiaCocoa AppIconArcticCyan AppIconPlumBerry AppIconSunriseGoldLight AppIconSunriseGoldDark AppIconMeadowSageLight AppIconMeadowSageDark AppIconAtlanticBlueLight AppIconAtlanticBlueDark AppIconCoralRoseLight AppIconCoralRoseDark AppIconRubyRedLight AppIconRubyRedDark AppIconEmberOrangeLight AppIconEmberOrangeDark AppIconTealMintLight AppIconTealMintDark AppIconLavenderIrisLight AppIconLavenderIrisDark AppIconSlateGrayLight AppIconSlateGrayDark AppIconSepiaCocoaLight AppIconSepiaCocoaDark AppIconArcticCyanLight AppIconArcticCyanDark AppIconPlumBerryLight AppIconPlumBerryDark";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDev;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = Resources/App.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -6038,8 +6036,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDev;
 				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIconMeadowSage AppIconAtlanticBlue AppIconCoralRose AppIconRubyRed AppIconEmberOrange AppIconTealMint AppIconLavenderIris AppIconSlateGray AppIconSepiaCocoa AppIconArcticCyan AppIconPlumBerry AppIconSunriseGoldLight AppIconSunriseGoldDark AppIconMeadowSageLight AppIconMeadowSageDark AppIconAtlanticBlueLight AppIconAtlanticBlueDark AppIconCoralRoseLight AppIconCoralRoseDark AppIconRubyRedLight AppIconRubyRedDark AppIconEmberOrangeLight AppIconEmberOrangeDark AppIconTealMintLight AppIconTealMintDark AppIconLavenderIrisLight AppIconLavenderIrisDark AppIconSlateGrayLight AppIconSlateGrayDark AppIconSepiaCocoaLight AppIconSepiaCocoaDark AppIconArcticCyanLight AppIconArcticCyanDark AppIconPlumBerryLight AppIconPlumBerryDark";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDev;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = Resources/App.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -6298,14 +6296,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIconMeadowSage AppIconAtlanticBlue AppIconCoralRose AppIconRubyRed AppIconEmberOrange AppIconTealMint AppIconLavenderIris AppIconSlateGray AppIconSepiaCocoa AppIconArcticCyan AppIconPlumBerry AppIconSunriseGoldLight AppIconSunriseGoldDark AppIconMeadowSageLight AppIconMeadowSageDark AppIconAtlanticBlueLight AppIconAtlanticBlueDark AppIconCoralRoseLight AppIconCoralRoseDark AppIconRubyRedLight AppIconRubyRedDark AppIconEmberOrangeLight AppIconEmberOrangeDark AppIconTealMintLight AppIconTealMintDark AppIconLavenderIrisLight AppIconLavenderIrisDark AppIconSlateGrayLight AppIconSlateGrayDark AppIconSepiaCocoaLight AppIconSepiaCocoaDark AppIconArcticCyanLight AppIconArcticCyanDark AppIconPlumBerryLight AppIconPlumBerryDark";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = Resources/App.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 333;
+				DEVELOPMENT_TEAM = T9NVCYP4WM;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = YES;
@@ -6334,7 +6333,7 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.newsblur.NewsBlur;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.becker-mayer.nb";
 				PRODUCT_NAME = NewsBlur;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -6351,14 +6350,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIconMeadowSage AppIconAtlanticBlue AppIconCoralRose AppIconRubyRed AppIconEmberOrange AppIconTealMint AppIconLavenderIris AppIconSlateGray AppIconSepiaCocoa AppIconArcticCyan AppIconPlumBerry AppIconSunriseGoldLight AppIconSunriseGoldDark AppIconMeadowSageLight AppIconMeadowSageDark AppIconAtlanticBlueLight AppIconAtlanticBlueDark AppIconCoralRoseLight AppIconCoralRoseDark AppIconRubyRedLight AppIconRubyRedDark AppIconEmberOrangeLight AppIconEmberOrangeDark AppIconTealMintLight AppIconTealMintDark AppIconLavenderIrisLight AppIconLavenderIrisDark AppIconSlateGrayLight AppIconSlateGrayDark AppIconSepiaCocoaLight AppIconSepiaCocoaDark AppIconArcticCyanLight AppIconArcticCyanDark AppIconPlumBerryLight AppIconPlumBerryDark";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = Resources/App.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 333;
+				DEVELOPMENT_TEAM = T9NVCYP4WM;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = YES;
@@ -6385,7 +6385,7 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.newsblur.NewsBlur;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.becker-mayer.nb";
 				PRODUCT_NAME = NewsBlur;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -6426,7 +6426,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 333;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = HR7P97SD72;
+				DEVELOPMENT_TEAM = T9NVCYP4WM;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -6483,7 +6483,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 333;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = HR7P97SD72;
+				DEVELOPMENT_TEAM = T9NVCYP4WM;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
@@ -6646,7 +6646,7 @@
 				);
 				MARKETING_VERSION = 14.7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.newsblur.NewsBlur.Story-Notification-Service-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.becker-mayer.nb.Story-Notification-Service-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -6687,7 +6687,7 @@
 				);
 				MARKETING_VERSION = 14.7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.newsblur.NewsBlur.Story-Notification-Service-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.becker-mayer.nb.Story-Notification-Service-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
